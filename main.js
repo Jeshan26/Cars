@@ -38,7 +38,7 @@ let p1= document.createElement("p1");
 let p2= document.createElement("p2");
 let ul= document.createElement("ul");
  // img element is being created for every image of car by passing the actaul source of the image
-image.setAttribute('src','https://jeshan26.github.io/CarJson/pics/'+ carTypes[i].image);
+image.setAttribute('src','https://jeshan26.github.io/Cars/pics/'+ carTypes[i].image);
 
 image.setAttribute('alt',carTypes[i].image);
 console.log(image);
