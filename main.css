@@ -1,87 +1,66 @@
 @charset "UTF-8";
 /* CSS Document */
-
-* {
-  box-sizing: border-box; 
+ * {
+     box-sizing: border-box;
 }
-
-html, 
-body {
-  height: 100%; 
+ html, body {
+     height: 100%;
 }
-
-html {
-  font-size: 10px; 
+ html {
+     font-size: 10px;
 }
-
-body { 
-  font-family: 'Bellota Text', cursive;
-  background-color: lightgreen;
+ body {
+     font-family: 'Bellota Text', cursive;
+     background-color: lightgreen;
 }
-
-.container {
-  color: black;
+ .container {
+     color: black;
 }
-
-h1, 
-h2, 
-h3 {
-  font-family: 'Bellota', cursive;
+ h1, h2, h3 {
+     font-family: 'Bellota', cursive;
 }
-img{
-  height:200px ;
-  width:200px ;
+ img{
+     height:200px ;
+     width:200px ;
 }
-
-h1 {
-  font-size: 7rem; 
-  text-align: center;
+ h1 {
+     font-size: 7rem;
+     text-align: center;
 }
-
-h2, 
-h3 {
-  padding: 30px 0; 
-  font-size: 4rem;  
+ h2, h3 {
+     padding: 30px 0;
+     font-size: 4rem;
 }
-
-p, 
-li {
-  padding: 2px;
-  font-size: 2.5rem;
+ p, li {
+     padding: 2px;
+     font-size: 2.5rem;
 }
-
-.container {
-  width:90%; 
-  margin-left:auto; 
-  margin-right: auto; 
+ .container {
+     width:90%;
+     margin-left:auto;
+     margin-right: auto;
 }
-
-section {
-  display:flex; 
-  justify-content:space-between;
+ section {
+     display:flex;
+     justify-content:space-between;
 }
-
-section img {
-  display:block; 
-  margin: 0 auto; 
+ section img {
+     display:block;
+     margin: 0 auto;
 }
-
-article {
-  padding-left: 40px;
+ article {
+     padding-left: 40px;
 }
-
-header {
-  padding: 50px 0; 
+ header {
+     padding: 50px 0;
 }
-
-footer  {
-  padding: 100px 0 0 45px;
-  text-align:right; 
+ footer {
+     padding: 100px 0 0 45px;
+     text-align:right;
 }
-
-footer p {
- font-size: 1.5rem; 
-  color: #101010; 
-  padding-bottom: 40px; 
+ footer p {
+     font-size: 1.5rem;
+     color: #101010;
+     padding-bottom: 40px;
 }
-
+ 
