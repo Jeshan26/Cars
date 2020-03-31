@@ -52,4 +52,8 @@ fetch(url)
 
             section.appendChild(article);
         }
+    })
+    // this catches any error if occured while loading the url 
+    .catch(function(e){
+        alert("Error " + e.message);
     });
